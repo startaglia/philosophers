@@ -31,7 +31,7 @@ This is an implementation of the famous [Dining Philosophers problem](https://en
 
   An example of program execution:
 
-      SCREEBEEEEEN!
+<a href="https://42roma.it/"><img src="https://github.com/startaglia/startaglia/blob/main/.media/philo.gif"></a>
 
 ## Installing and running the project:
 
@@ -50,7 +50,7 @@ This is an implementation of the famous [Dining Philosophers problem](https://en
 Run the program and try whit different parameters.
 
 ### Input examples:
-- a philosopher will not be able to eat so he dies: `make && ../philo 5 200 400 200`
+- a philosopher will not be able to eat so he dies: `make && ./philo 5 200 400 200`
 - all philosophers will always be able to eat in time: `make re && ./philo 4 450 100 250`
 - all philosophers will always manage to eat in time 7 times: `make re && ./philo 5 800 100 250 7`
  
